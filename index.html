@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration Form</title>
+</head>
+<style>
+  *{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+  }
+  body{
+    background:url('./one.jpeg') no-repeat;
+    background-size: cover;
+    color: black;
+  }
+.registration-form{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+}
+.registration-form h1{
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px 0;
+}
+.registration-form p{
+  font-size: 20px;
+  margin: 15px 0;
+}
+.registration-form input{
+  font-size: 16px;
+  padding: 8px 8px;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+}
+.registration-form button{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 10px 15px;
+  width: 50%;
+  border: 0;
+  border-radius: 5px;
+  background-color:fff;
+}
+.registration-form button:hover{
+  color: darkred;
+}
+.checkbox{
+  position:absolute;
+  bottom: 10%;
+  left: 50%;
+  width: 400px;
+}
+</style>
+
+<body>
+	<div class="registration-form">
+      <h1>Registration Form</h1>
+      <form action="#" method="post">
+      	<p>Full Name:</p>
+      <input type="text" name="full Name" placeholder="Full Name">
+        <p>User Name:</p>
+      <input type="text" name="username" placeholder="Username">
+        <p>Email:</p>
+      <input type="email" name="email" placeholder="Email">
+      <p>Phone Number:</p>
+      <input type="text" name="Phonenumber" placeholder="Phone Number"><br></br>
+        <button type="submit">Registration</button><br></br>
+      </form>
+	</div>
+  <div class="checkbox">
+    <input type="checkbox"> Terms and Conditions
+  </div>
+</body>
+</html>
